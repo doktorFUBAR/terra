@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Terra Science Centre: Do you want to get in touch? You can visit us, call us and mail us!">
+    <meta name="keywords"
+        content="Terra, Science, Centre, Museum, Contact, Mail, Phone, Kids, Adults, Trondheim, Norway">
+    <meta name="author" content="Per Kristian Willand Engebretsen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <!--Importing FontAwesome fonts (icons)-->
+    <script src="https://kit.fontawesome.com/c5ab4f13eb.js" crossorigin="anonymous"></script>
+    <title>Terra Science Centre | Contact us</title>
+    <link rel="icon" type="image/png" href="img/browser-logo.png" />
+</head>
+
+<body>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="index.html"><img src="img/logo_black.png" alt="Terra Science Centre logo"></a>
+            </div>
+        </div>
+        <nav>
+            <label for="toggle"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle" />
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore &amp; Visit</a></li>
+                    <li><a href="exhibitions.html">Exhibitions</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="getinvolved.html">Get Involved</a></li>
+                    <li><a href="contact.html"><span class="activepage">Contact us</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <nav class="fixed-bottom">
+
+        <a href="explore.html#visit"><i class="far fa-building"></i> Visit</a>
+        <a href="exhibitions.html"><i class="fas fa-flask"></i> Exhibitions</a>
+        <a href="contact.html"><i class="fas fa-mobile-alt"></i> Contact</a>
+
+    </nav>
+    <main>
+        <div class="contact-container">
+            <h1 class="banner-headline">Contact us!</h1>
+            <section class="contact-info">
+                <h2 class="h2-red"><i class="fas fa-map-marker-alt"></i> Address</h2>
+                <p>Kjøpmannsgata 65, 7011 Trondheim.</p>
+                <h2 class="h2-red"><i class="fas fa-mobile-alt"></i> Phone</h2>
+                <p>+47 123 45 678</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.439977741095!2d10.402291416238164!3d63.43271738327755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319935457687%3A0x98246af9a853f8e3!2sKj%C3%B8pmannsgata%2065%2C%207011%20Trondheim!5e0!3m2!1sno!2sno!4v1582641669730!5m2!1sno!2sno"></iframe>
+            </section>
+            <section>
+                <div class="form-container">
+                    <form action="#" id="contactform">
+                        <h2 class="h2-red"><i class="far fa-envelope"></i> Mail</h2>
+                        <input type="text" id="fname" name="fname" placeholder="Your first name...">
+                        <input type="text" id="lname" name="lname" placeholder="Your last name...">
+                        <input type="email" id="email" name="email" placeholder="Your Email address...">
+                        <textarea class="message" name="message" id="message" placeholder="Your message"></textarea>
+                        <input class="btn" type="submit" value="Send">
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a class="back-to-top" href="#top">Back to top</a>
+        <div class="footer-container">
+            <div class="left-column">
+                <h2>Newsletter</h2>
+                <p class="newspar">Enter your email adress to recieve the latest news!</p>
+                <form action="" class="newsletter-form">
+                    <input type="email" class="emailform" placeholder="Your email...">
+                    <input type="submit" class="form-btn" value="Subscribe">
+                </form>
+            </div>
+            <div class="column-middle">
+                <h3>Hours</h3>
+                <ul>
+                    <li><span class="bold">Monday:</span> Closed</li>
+                    <li><span class="bold">Tuesday:</span> 10:00 – 16:00</li>
+                    <li><span class="bold">Wednesday:</span> 10:00 – 16:00</li>
+                    <li><span class="bold">Thursday:</span> 10:00 – 16:00</li>
+                    <li><span class="bold">Friday:</span> 10:00 – 19:00</li>
+                    <li><span class="bold">Saturday:</span> 9:00 – 16:00</li>
+                    <li><span class="bold">Sunday:</span> 9:00 – 13:00</li>
+                </ul>
+                <h3>Location</h3>
+                <p>Kjøpmannsgata 65, 7011 Trondheim</p>
+            </div>
+
+            <div class="right-column">
+                <div class="logo"><img src="img/logo_black.png" alt="Terra Science Centre logo"></div>
+                <div class="somed">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                    </ul>
+                </div>
+                <p>&copy; Terra Science Centre, 2020</p>
+            </div>
+        </div>
+    </footer>
+    <!--JS scripts-->
+    <script src="js/utils.js"></script>
+</body>
+
+</html>
